@@ -30,7 +30,7 @@ import static com.simplifymoney.casaextracter.util.FileUtil.extractTextFromPDF;
 public class CasaExtractorService implements ICasaExtractorService {
 
     private static final Logger log = LoggerFactory.getLogger(CasaExtractorService.class);
-
+    // In production we should hide the API keys and other sensitive data
     private static final String GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
     private static final String GEMINI_API_KEY = "AIzaSyDjpL47rQaNMkLf74NOAiBulHcQggyW6_s";
 
